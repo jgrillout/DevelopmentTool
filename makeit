@@ -1,0 +1,17 @@
+rm *.o
+
+g++ -Wall -fexceptions -g -fpermissive  -c dataDictionaryEntryForm.cpp -o dataDictionaryEntryForm.o
+g++ -Wall -fexceptions -g -fpermissive  -c fieldsEntryForm.cpp -o fieldsEntryForm.o
+g++ -Wall -fexceptions -g -fpermissive  -c main.cpp -o main.o
+g++ -Wall -fexceptions -g -fpermissive  -c screenField.cpp -o screenField.o
+g++ -Wall -fexceptions -g -fpermissive  -c screenLayout.cpp -o screenLayout.o
+g++ -Wall -fexceptions -g -fpermissive  -c screensDefEntryForm.cpp -o screensDefEntryForm.o
+g++ -Wall -fexceptions -g -fpermissive  -c screenText.cpp -o screenText.o
+g++ -Wall -fexceptions -g -fpermissive  -c shared.cpp -o shared.o
+g++ -Wall -fexceptions -g -fpermissive  -c tablesEntryForm.cpp -o tablesEntryForm.o
+
+
+                
+g++  -o DevelopmentTool dataDictionaryEntryForm.o fieldsEntryForm.o main.o screenField.o screenLayout.o screensDefEntryForm.o screenText.o shared.o tablesEntryForm.o -lncurses -lform -lmenu -lsqlite3
+
+rm *.o
