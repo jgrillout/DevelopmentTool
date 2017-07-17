@@ -1,0 +1,14 @@
+ScreenLayout
+if F7 then enter, get F8 message
+
+if F1
+Cust Id Segmentation fault (core dumped)                                     │
+│                                                                              │
+│                                         Process returned 139 (0x8B)   execution time : 538.038 s                                                             │
+│                 Press ENTER to continue.
+
+
+
+when first enter screen layout row0,col0 cant type anything until you move arrow
+
+loadlayout isn't working 

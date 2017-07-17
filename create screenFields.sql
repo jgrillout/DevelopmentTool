@@ -1,0 +1,21 @@
+CREATE TABLE `screenFields` (
+  `idscreenFields` int(11) NOT NULL AUTO_INCREMENT,
+  `ScreenLayoutId` varchar(10) DEFAULT NULL,
+  `ScreenLocId` varchar(10) DEFAULT NULL,
+  `tableId` varchar(15) DEFAULT NULL,
+  `FieldId` varchar(15) DEFAULT NULL,
+  `fieldName` varchar(30) DEFAULT NULL,
+  `labelText` varchar(20) DEFAULT NULL,
+  `labelRow` int(11) DEFAULT NULL,
+  `labelCol` int(11) DEFAULT NULL,
+  `fieldType` int(11) DEFAULT NULL,
+  `fieldRow` int(11) DEFAULT NULL,
+  `fieldCol` int(11) DEFAULT NULL,
+  `fieldLen` int(11) DEFAULT NULL,
+  `fieldPrec` int(11) DEFAULT NULL,
+  `fieldEditable` varchar(3) DEFAULT NULL,
+  `fieldRequired` varchar(3) DEFAULT NULL,
+  `fieldVisible` varchar(3) DEFAULT NULL,
+  `fieldTabOrder` int(11) DEFAULT NULL,
+  PRIMARY KEY (`idscreenFields`)
+) ENGINE=InnoDB AUTO_INCREMENT=85 DEFAULT CHARSET=latin1;

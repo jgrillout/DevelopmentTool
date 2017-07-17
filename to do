@@ -1,0 +1,47 @@
+
+
+easy changes
+---------------------
+
+Add validation
+	label & field row cant be >24, col>80
+	field len cant be >60?
+	field type must be 1-5
+	Make field name uppercase & cant have spaces but can have _
+
+harder changes
+---------------------
+
+
+add ability to default layout on design screen with F1
+change the template  to include my tab order logic?
+
+
+
+other issues
+----------------------
+field required logic not possible with O_NULLOK because it only Controls whether validation is applied to blank fields
+
+if type label in column 2, label column is 1 and should be 2 on adding field to desgin layout 
+It is correct if adding field in column>2 
+
+
+
+
+TYPE_NUMERIC RANGES ARE NOT WORKING (NOW I CAN'T REMEMBER WHERE)
+
+Add ability to do insert mode //TRIED BUT I THINK THERE IS A NCURSES BUG
+add key delete logic //TRIED BUT I THINK THERE IS A NCURSES BUG
+
+
+
+
+
+
+
+
+
+
+
+
+        
